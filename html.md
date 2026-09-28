@@ -2,11 +2,11 @@
 
 # Forms
 
-<form >
+
         <label for="name"> Name:
            <input type="text" name="" id="name" placeholder="Your name">
         </label>
-</form>
+
 
 *form will be created insige form tag.* 
 
@@ -15,7 +15,7 @@
 *Placeholder will show the word in the box that is typed inside the place holder*
 
 
-<form >
+
         <fieldset>
             <legend>Pick One Device</legend>
             <label for="Phone">
@@ -28,7 +28,7 @@
                 <input type="radio" name="device" id="Laptop">Laptop
             </label>
         </fieldset>
-</form>
+
 
 1. Fieldset create a box over the form
 2. Legend will print the string written inside it inside the box that has been created by the fieldset
