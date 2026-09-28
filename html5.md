@@ -2,44 +2,44 @@
 
 # Forms
 
+```html
+<label for="name"> Name:
+    <input type="text" name="" id="name" placeholder="Your name">
+</label>
+```
 
-        <label for="name"> Name:
-           <input type="text" name="" id="name" placeholder="Your name">
-        </label>
+*Form controls are created inside the `<form>` tag.*
 
+*The label text is the name that will be visible before the input.*
 
-*form will be created insige form tag.* 
+*The placeholder shows the word typed inside it in the box.*
 
-*label name will be the name that will be visible before input type.*
+```html
+<fieldset>
+    <legend>Pick One Device</legend>
+    <label for="phone">
+        <input type="radio" name="device" id="phone">Phone
+    </label>
+    <label for="TV">
+        <input type="radio" name="device" id="TV">TV
+    </label>
+    <label for="Laptop">
+        <input type="radio" name="device" id="Laptop">Laptop
+    </label>
+</fieldset>
+```
 
-*Placeholder will show the word in the box that is typed inside the place holder*
-
-
-
-        <fieldset>
-            <legend>Pick One Device</legend>
-            <label for="Phone">
-                <input type="radio" name="device" id="phone">Phone
-            </label>
-            <label for="TV">
-                <input type="radio" name="device" id="TV">TV
-            </label>
-            <label for="Laptop">
-                <input type="radio" name="device" id="Laptop">Laptop
-            </label>
-        </fieldset>
-
-
-1. Fieldset create a box over the form
-2. Legend will print the string written inside it inside the box that has been created by the fieldset
+1. `<fieldset>` creates a box around the form controls.
+2. `<legend>` prints the text written inside it on the box created by the fieldset.
 
 # Table
 
+```html
 <table>
     <thead>
-       <tr>
-        <td colspan="4">Employee Info</td>
-       </tr>
+        <tr>
+            <td colspan="4">Employee Info</td>
+        </tr>
     </thead>
 
     <tbody>
@@ -82,14 +82,15 @@
     <tfoot>
         <tr>
             <td colspan="4">Number of Employees: 4</td>
-         </tr>
+        </tr>
     </tfoot>
-   </table>
+</table>
+```
 
-   1. <tr> represents table row. It will create a row in the table
+1. `<tr>` represents a table row. It creates a row in the table.
+2. `<td>` is table data. It inserts data inside the table row.
+3. `colspan="4"` means the cell spans 4 columns.
 
-   2. <td> it is table data, it will insert data inside the table row.
+## Copyright symbol
 
-   3. colspan="4" represents that the row will be 4 columns long.
-
-   ## **@copy! is the command to create copyright symbol**
+Write `&copy;` in HTML to show the © symbol.
